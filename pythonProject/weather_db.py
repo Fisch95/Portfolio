@@ -1,4 +1,4 @@
-
+# WGU project
 import sqlalchemy
 from sqlalchemy import create_engine, Column, Integer, Float, UniqueConstraint
 from sqlalchemy.orm import sessionmaker
