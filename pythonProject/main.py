@@ -1,4 +1,4 @@
-# WGU Project
+
 # Import class from weather_project
 from weather_db import save_weather_data, get_weather_data
 from weather_project import WeatherData

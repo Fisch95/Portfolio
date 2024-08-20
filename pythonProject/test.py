@@ -1,4 +1,4 @@
-# WGU project
+
 import unittest
 from weather_project import WeatherData
 from weather_db import save_weather_data, get_weather_data, init_db, Base, WeatherRecord
