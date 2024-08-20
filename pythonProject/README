@@ -1,0 +1,17 @@
+Weather Data Project
+This project is designed to fetch weather data from the Open Meteo API, process it, and store it in a database for further analysis. It includes functionalities to fetch weather data for a specific location and date range, calculate various statistics like average temperature, wind speed, and precipitation, and store the data in a database.
+
+Project Structure
+The project consists of the following files:
+
+weather_project.py: Contains the WeatherData class responsible for fetching weather data from the API and processing it.
+weather_db.py: Includes functions to interact with the database, such as saving weather data and retrieving it.
+main.py: Defines the main functionality of the project, including fetching weather data, saving it to the database, and displaying statistics.
+test.py: Provides unit tests for the WeatherData class and database functions.
+Usage
+To use the project, follow these steps:
+
+Install the required packages listed in requirements.txt.
+Import the WeatherData class from weather_project.py and use it to fetch weather data for a specific location and date range.
+Use the provided database functions to save weather data to the database and retrieve it for analysis.
+Optionally, run the unit tests provided in test.py to ensure the correctness of the implementation.
